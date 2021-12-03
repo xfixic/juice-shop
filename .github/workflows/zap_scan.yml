@@ -16,5 +16,4 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           target: 'https://my-app-sho.herokuapp.com'
-          rules_file_name: '.zap/rules.tsv'
           cmd_options: '-a -j -I'
